@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="lime_colorPrimary">#beff00</color>
+    <color name="lime_colorPrimaryDark">#99d000</color>
+    <color name="lime_textColorPrimary">#ffffff</color>
+    <color name="green_awaiting">#21A300</color>
+</resources>

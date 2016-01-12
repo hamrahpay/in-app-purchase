@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">پرداخت همراه</string>
+    <string name="verification_type">email_verification</string>
+    <!--<string name="verification_type">device_verification</string>-->
+</resources>

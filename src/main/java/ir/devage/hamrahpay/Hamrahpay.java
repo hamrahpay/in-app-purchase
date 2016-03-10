@@ -109,6 +109,7 @@ public class Hamrahpay {
 		params.add(new BasicNameValuePair("sku", sku));
 		params.add(new BasicNameValuePair("device_id", device_id));
 		params.add(new BasicNameValuePair("email", getPrimaryEmailAddress(context)));
+		params.add(new BasicNameValuePair("verification_type", context.getString(R.string.verification_type)));
 		response = SendData("https://hamrahpay.com/rest-api/pay-request", params);
 		if (response!=null)
 		{

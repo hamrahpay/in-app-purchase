@@ -87,13 +87,13 @@ public class PayActivity extends Activity {
 						super.onReceivedError(view, errorCode, description, failingUrl);
 					}
 
-
+					/*
 					@Override
 					public void onReceivedSslError(WebView view, SslErrorHandler handler,
 												   SslError error) {
 						//super.onReceivedSslError(view, handler, error);
 						handler.proceed();
-					}
+					}*/
 
 					//Show loader on url load
 					@Override
